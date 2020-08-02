@@ -1,0 +1,22 @@
+.header {
+    grid-area: h;
+    background-color: rgb(97, 107, 128);
+}
+.header img {
+    width: 100px;
+    margin-top: 1px;
+    margin-left: 6px;
+    padding: 3px 3px 3px 3px;
+    margin-bottom: 15px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+
+.logoText{
+    margin-left: 500px;
+    font-size: 25pt;
+    font-family: "Noto Sans Coptic";
+    display: inline;
+    align-items: center;
+    align-content: center;
+}

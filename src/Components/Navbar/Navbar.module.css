@@ -1,0 +1,25 @@
+.nav {
+    grid-area: n;
+    background-color: #000000;
+}
+.nav_ul li {
+    display: inline;
+    margin-left: 60px;
+    margin-right: 50px;
+    font-size: 20pt;
+    text-align: center;
+}
+.vl {
+    border-left: 2px solid #c2c2c2;
+    padding-left: 130px;
+    height: 500px;
+}
+a {
+    color: rgb(95, 97, 115);
+    text-decoration: none;
+}
+
+a.active {
+    color: rgba(217, 228, 228, 0.94);
+}
+

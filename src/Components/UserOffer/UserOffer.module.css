@@ -1,0 +1,121 @@
+.TeslaLogo img {
+    width: 1440px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.UserOfferItemColumns {
+    display: grid;
+    grid-template-columns:3fr 3fr 4fr;
+    margin-left: 27px;
+}
+.hrr hr {
+    height: 3px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: rgb(58, 65, 85);
+    border: none
+}
+.MainText {
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(233, 244, 244);
+    font-size: 40px;
+    font-family: "Arial Hebrew Scholar";
+    background: none;
+    margin-bottom: 10px;
+}
+.OfferAddButton {
+    font-weight: 700;
+    font-size: 13pt;
+    width: 300px;
+    height: 50px;
+    margin-left: 545px;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background:rgb(97, 107, 128) ;
+    box-shadow: 0 -3px rgb(71, 77, 93) inset;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.OfferAddButton:hover {
+    background: rgb(51, 56, 67);
+
+}
+.OfferAddButton:active {
+    background: rgb(45, 49, 59);
+    box-shadow: 0 3px rgb(39, 43, 52) inset;
+}
+.OfferAddButton:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.textUsOf {
+    margin-left: 27px;
+}
+.UsOfItems {
+    border: 1px solid black;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.UsOfMessage {
+    padding: 15px 15px 15px 20px;
+    margin-left: 22px;
+    border: 1px solid black;
+    width: 460px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.UsOfMessage span {
+    text-align: justify;
+    width: 440px;
+}
+.UsOfMessage strong {
+    margin-bottom: 10px;
+}
+.UsOfPhoto {
+    width: 290px;
+    padding-top: 55px;
+    padding-left: 150px;
+    margin-left: 22px;
+    margin-right: 27px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.UsOfPhoto strong, .UsOfPhoto span {
+    padding-left: 30px;
+}
+.mainImg {
+    padding-top: 160px;
+    padding-bottom: 200px;
+    background-image: url('img/teslaBlack.jpg');
+    background-size: 1440px;
+}
+.mainDiv {
+    width: 1440px;
+}
+.inputValue, .inputMessage {
+    text-align: center;
+    width: 155px;
+    height: 30px;
+    margin-left: 15px;
+    font-family: "Andale Mono";
+    font-size: 9pt;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.AddPhoto {
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    margin-left: 30px;
+    font-family: "Andale Mono";
+    font-size: 10pt;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 1px 1px 2px 1px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
